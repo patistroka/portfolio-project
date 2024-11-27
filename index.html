@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>Personal Portfolio Webpage Project</title>
+   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/8d61045429.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!--navegation bar-->
+    <nav id="navbar">
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <label id="overlay" for="sidebar-active"></label>
+      <div class="links-container">
+        <label for="sidebar-active" class="close-sidebar-button">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <a class="nav-link" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+    </nav>
+
+    <!--intro-->
+    <section id="welcome-section">
+      <h1>Hi! I'm Patricia<h1>
+      <h3>I'm a Front-End Development Student focused on building user-friendly Websites and Web Applications, contributing to the overall success of digital products</h3>
+      <a href="#projects">
+       <button type="button" class="button">PROJECTS</button>
+      </a>
+    </section>
+
+    <!--knowledge-->
+      <h1 class="section">Knowledge</h1>
+      <div class="divider"></div>
+    
+    <section id="knowledge">
+      <div class="content-box-icon">
+        <div class="box-icon">
+          <i class="fa-brands fa-html5 fa-3x" style="color: #0f1016;"></i>
+          <p class="icon">HTML</p>     
+        </div>
+
+        <div class="box-icon">
+          <i class="fa-brands fa-css3-alt fa-3x" style="color: #0f1016;"></i>
+          <p class="icon">CSS</p>     
+        </div>
+
+         <div class="box-icon">
+          <i class="fa-brands fa-js fa-3x" style="color: #0f1016"></i>
+          <p class="icon">JavaScript</p>     
+        </div>
+
+        <div class="box-icon">
+          <i class="fa-brands fa-free-code-camp fa-3x" style="color: #0f1016"></i>
+          <p class="icon">freeCodeCamp</p>     
+        </div>
+
+        <div class="box-icon">
+          <i class="fa-brands fa-meta fa-3x" style="color: #0f1016"></i>
+          <p class="icon">Meta</p>     
+        </div>
+
+        </div>
+    </section>
+
+    <div class="thin-divider"></div>
+
+    <!--projects-->
+      <h1 class="section">Projects</h1>
+      <div class="divider"></div>
+
+<!--content-box-1-->
+    <section id="projects">
+      <div class="project-tile">
+        <div class="box">
+          <a class="projects-link" href="https://codepen.io/Patricia-Ceballos/pen/Jjggmeg" target="_blank">
+          <h2>Survey Form Page</h2> </a>
+          <img src="https://i.postimg.cc/J4gYWvdr/form-page-project.png" alt="survey-form-page-project">
+          <p class="desc">This project demonstrates the creation of a fully functional survey form. It incorporates HTML5 input types, validation, and semantic HTML elements to ensure a user-friendly and accessible experience. Key features include required fields, input type restrictions, and clear labeling.</p>     
+          
+        </div>
+ <!--content-box-2-->
+        <div class="box">
+          <a class="projects-link" href="https://codepen.io/Patricia-Ceballos/pen/ByBBwBy" target="_blank">
+          <h2>Product Landing Page</h2></a>
+          <img src="https://i.postimg.cc/mrrSzSnX/product-landpage-project-2.png" alt="product-landpage-project">
+          <p class="desc">This project showcases a responsive product landing page, leveraging HTML5 and CSS3. The page features a well-organized HTML structure, with elements like <code>header</code>, <code>nav</code>, <code>section</code>, and <code>article</code> used effectively. Responsive design principles are applied to tailor the layout and styles to various screen sizes, making the page accessible on both desktop and mobile devices. CSS Grid and Flexbox are utilized to create flexible and dynamic layouts.</p>
+        </div>
+<!--content-box-3-->
+        <div class="box">
+          <a class="projects-link" href="https://codepen.io/Patricia-Ceballos/pen/ZYzzKxo" target="_blank">
+          <h2>Tribute Page</h2></a>
+          <img src="https://i.postimg.cc/8zZRS6Ch/tribute-page-project.png" alt="tribute-page-project">
+          <p class="desc">This project demonstrates a responsive tribute page, leveraging HTML5 and CSS3. The page features a clear and semantic HTML structure, with elements like header, main, and section used appropriately. CSS is used to style the page, ensuring a visually appealing and user-friendly experience across different devices.</p>    
+        </div>
+<!--content-box-4-->
+        <div class="box">
+          <a class="projects-link" href="https://codepen.io/Patricia-Ceballos/pen/zxOOpyd" target="_blank">
+          <h2>Technical Documentation Page</h2></a>
+          <img src="https://i.postimg.cc/kM2dKdLP/technical-page-project-2.png" alt="technical-page-project">
+          <p class="desc">This interactive technical documentation page features a well-organized layout with sections and a navigation bar. Users can easily locate specific topics and navigate effortlessly through the content.</p>
+        </div>
+      </div>
+    </section>
+
+  <div class="thin-divider"></div>
+
+    <!--Contact--> 
+    <h1 class="section">Contact</h1>
+    <div class="divider"></div>
+    <section id="contact">
+      <h3>
+        Feel free to explore my <a id="profile-link" href="https://www.yourprofilelink.com" target="_blank">profile on CodePen</a>, where you can view the HTML and CSS of this project. 
+        You can also connect with me through my social media profiles for more information.
+      </h3>    
+</section>
+    
+    <section id="contact-icon">
+      <div class="contact-icon">
+      <i class="fa-brands fa-linkedin fa-2x" ></i>
+      <a href="https://www.freecodecamp.org/PatiStroka"><i class="fa-brands fa-free-code-camp fa-2x"></i></a>
+      <a href="https://codepen.io/Patricia-Ceballos"><i class="fa-brands fa-codepen fa-2x"></i></a>            </div>
+    </section>
+
+<!--Footer-->
+  <footer>
+    <p><i>This portfolio showcases projects created for freeCodeCamp's Responsive Web Design certification.</i></p>
+    
+    <p>by Patricia Stroka Ceballos</p>
+  </footer>
+  </body>
+  
+</html>
